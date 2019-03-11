@@ -12,8 +12,8 @@ public class CarParkSimulation {
 
 	private int parking_spaces_trucks_occupy = 2;
 	private int time_spent_parked_in_hours;
-	private static int no_of_spaces_available;
-	private static String result;
+	private int no_of_spaces_available;
+	private String result;
 
 	public ArrayList<Integer> getVehicles() {
 		return vehicles;
